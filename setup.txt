@@ -1,0 +1,9 @@
+cd D:\IDs\Dell\Desktop\Geo Technology\ChatBot
+python -m venv venv
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+
+streamlit run ChatRoom.py
+streamlit run app.py
